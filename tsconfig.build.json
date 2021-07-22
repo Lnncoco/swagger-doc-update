@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "newLine": "LF",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strictNullChecks": false,
+    "target": "es2016",
+    "rootDirs": ["src"],
+    "lib": ["es6", "dom", "es2018"]
+  },
+  "exclude": ["scripts", "temp", "node_modules", "dist"]
+}

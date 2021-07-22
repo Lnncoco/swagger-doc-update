@@ -1,0 +1,6 @@
+/dist
+/node_modules
+/lib
+/.yalc
+yalc.lock
+package-lock.json
